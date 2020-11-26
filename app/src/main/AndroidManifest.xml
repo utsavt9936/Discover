@@ -31,10 +31,10 @@
             <!-- This intent-filter adds the Trusted Web Activity to the Android Launcher -->
             <meta-data
                 android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
-                android:resource="@drawable/my_logo" />
+                android:resource="@drawable/loginpage" />
             <meta-data
                 android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
-                android:resource="@color/ttc" />
+                android:resource="@android:color/white" />
             <meta-data
                 android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
                 android:value="300" />
@@ -63,6 +63,9 @@
                     android:host="discoveriitbbs.herokuapp.com/"
                     android:scheme="https" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity">
         </activity>
 
         <provider
